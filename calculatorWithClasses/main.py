@@ -25,7 +25,8 @@ def run_calculator():
             # break the while loop if the answer is no
             next_calculation = input("Do you want to perform another calculation? (yes/no): ")
             if next_calculation.lower() != "yes":
-                break
+                break       
+            #I could also have   if input("Do you want to perform another calculation? (yes/no): ").lower() != "yes":break to mmake the code cleaner
         else:
             print("Invalid Input")
 
